@@ -16,6 +16,46 @@ This project is made so all the elements are displayed correctly on popular scre
   
 **Images**  
   
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+<img
+    src="./images/jacques-cousteau (1).png" 
+    alt="avatar"
+    class="profile__image"/>
+
+ <img 
+    alt="Photo of the Yosemite"
+    src=".//images/yosemite.jpg"
+    class="card__image"/>
+
+ <img 
+    alt="Photo of the Lake Louise"
+    src=".//images/lake-louise.jpg"
+    class="card__image"/>
+
+ <img 
+    alt="Photo of the Bald Mountains"
+    src=".//images/bald-mountains.jpg"
+    class="card__image"/>
+
+  <img 
+    alt="Photo of the Latemar"
+    src=".//images/latemar.jpg"
+    class="card__image" />
+
+ <img 
+    alt="Photo of the Vanoise National Park"
+    src=".//images/class="
+    class="card__image"/>
+
+ <img 
+    alt="Photo of the Lago di Braies"
+    src=".//images/lago.jpg"
+    class="card__image"/>
+
+
+Link to github page: https://julihejt.github.io/aroundtheus_project/
+
+Link to video overview:
+https://drive.google.com/file/d/1rQyYbhWIhrDMr9TS_aZ7uZ9bozT5hP1h/view?usp=sharing
+
   
 Good luck and have fun!
