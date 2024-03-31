@@ -1,0 +1,32 @@
+.popup__error {
+  color: #ff0000;
+  position: absolute;
+  transition: opacity 0.3s;
+  left: 23px;
+  font-size: 12px;
+  line-height: 15px;
+  top: calc(100% + -173px);
+}
+
+.popup__error-second {
+  color: #ff0000;
+  position: absolute;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 15px;
+  left: 23px;
+  top: calc(100% + -111px);
+}
+
+.popup__button_disabled {
+  background-color: #ffffff;
+  border: 1px solid #808080;
+}
+
+.popup__button_disabled .modal__saved {
+  color: #808080;
+}
+
+.popup__input_type_error {
+  border-bottom: 1px solid #ff0000;
+}
