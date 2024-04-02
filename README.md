@@ -14,43 +14,6 @@ This project is made so all the elements are displayed correctly on popular scre
   
 * [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
   
-**Images**  
-  
-<img
-    src="./images/jacques-cousteau (1).png" 
-    alt="avatar"
-    class="profile__image"/>
-
- <img 
-    alt="Photo of the Yosemite"
-    src=".//images/yosemite.jpg"
-    class="card__image"/>
-
- <img 
-    alt="Photo of the Lake Louise"
-    src=".//images/lake-louise.jpg"
-    class="card__image"/>
-
- <img 
-    alt="Photo of the Bald Mountains"
-    src=".//images/bald-mountains.jpg"
-    class="card__image"/>
-
-  <img 
-    alt="Photo of the Latemar"
-    src=".//images/latemar.jpg"
-    class="card__image" />
-
- <img 
-    alt="Photo of the Vanoise National Park"
-    src=".//images/class="
-    class="card__image"/>
-
- <img 
-    alt="Photo of the Lago di Braies"
-    src=".//images/lago.jpg"
-    class="card__image"/>
-
 
 Link to github page: https://julihejt.github.io/aroundtheus_project/
 
