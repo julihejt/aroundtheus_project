@@ -41,4 +41,3 @@ Link to github page: https://julihejt.github.io/aroundtheus_project/
 
 Link to video overview:
 https://drive.google.com/file/d/1rQyYbhWIhrDMr9TS_aZ7uZ9bozT5hP1h/view?usp=sharing
-![image](https://github.com/julihejt/aroundtheus_project/assets/153778807/40f79e15-6e8b-4a2a-904b-b118696b42c3)
