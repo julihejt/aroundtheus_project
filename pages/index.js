@@ -118,6 +118,16 @@ function handleAddCardSubmit(e) {
   closePopup(addModal);
 }
 
+function getCard(data, templateSelector, handleImageClick) {
+  const card = new Card(data, templateSelector, handleImageClick);
+  return card.getView();
+}
+
+function createCard(cardData) {
+  const cardElement = getCard(cardData, "#card-template", handleImageClick);
+  cardListEl.prepend(cardElement);
+}
+
 /* ----------------------------- event listener ----------------------------- */
 modals.forEach((modal) => {
   modal.addEventListener("click", (event) => {
@@ -130,12 +140,6 @@ modals.forEach((modal) => {
 initialCards.forEach((cardData) => {
   createCard(cardData);
 });
-
-function createCard(cardData) {
-  const card = new Card(cardData, "#card-template", handleImageClick);
-  const cardElement = card.getView();
-  cardListEl.prepend(cardElement);
-}
 
 profileEditButton.addEventListener("click", () => {
   profileTitleInput.value = profileTitle.textContent.trim();
