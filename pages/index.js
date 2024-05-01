@@ -4,6 +4,13 @@ import Card from "../components/Card.js";
 
 import FormValidation from "../components/FormValidation.js";
 
+import {
+  closePopup,
+  openPopup,
+  closeModalByEscape,
+  handleImageClick,
+} from "./utils.js";
+
 import "../pages/index.css";
 
 /* ------------------------------ initial cards ----------------------------- */
@@ -87,30 +94,6 @@ const addCardValidator = new FormValidation(formSettings, addForm);
 addCardValidator.enableValidation();
 
 /* -------------------------------- function -------------------------------- */
-function closePopup(modal) {
-  modal.classList.remove("modal_opened");
-  document.removeEventListener("keydown", closeModalByEscape);
-}
-
-function openPopup(modal) {
-  modal.classList.add("modal_opened");
-  document.addEventListener("keydown", closeModalByEscape);
-}
-
-function closeModalByEscape(evt) {
-  if (evt.key === "Escape") {
-    const openedModal = document.querySelector(".modal_opened");
-    closePopup(openedModal);
-  }
-}
-
-function handleImageClick(cardData) {
-  modalImageSrc.setAttribute("src", cardData.link);
-  modalImageSrc.setAttribute("alt", cardData.name);
-  modalImageDescription.textContent = cardData.name;
-  openPopup(cardImageModal);
-}
-
 function handleAddCardSubmit(e) {
   e.preventDefault();
   const name = placeInput.value;
