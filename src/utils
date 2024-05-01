@@ -1,0 +1,75 @@
+/* ------------------------------ initial cards ----------------------------- */
+export const initialCards = [
+  {
+    name: "Yosemite Valley",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/yosemite.jpg",
+  },
+  {
+    name: "Lake Louise",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/lake-louise.jpg",
+  },
+  {
+    name: "Bald Mountains",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/bald-mountains.jpg",
+  },
+  {
+    name: "Latemar",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/latemar.jpg",
+  },
+  {
+    name: "Vanoise National Park",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/vanoise.jpg",
+  },
+  {
+    name: "Lago di Braies",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/lago.jpg ",
+  },
+];
+
+// Selectors
+export const selectors = {
+  popupForm: ".modal__form",
+  previewImage: ".modal__preview-image",
+  addModal: "#profile-add-modal",
+};
+
+// DOM Elements
+export const elements = {
+  profileEditButton: document.querySelector("#profile-edit-button"),
+  profileEditModal: document.querySelector("#profile-edit-modal"),
+  profileCloseButton: document.querySelector("#modal-close-button"),
+  profileTitle: document.querySelector(".profile__title"),
+  profileDescription: document.querySelector("#profile__description"),
+  profileTitleInput: document.querySelector("#profile-title-input"),
+  profileDescriptionInput: document.querySelector("#profile-description-input"),
+  profileAddButton: document.querySelector(".profile__add-button"),
+  profileEditForm: document.querySelector("#edit-profile-form"),
+  profileEditSubmit: document.querySelector("#edit-save-button"),
+  cardListEl: document.querySelector(".cards__list"),
+  cardTemplate:
+    document.querySelector("#card-template").content.firstElementChild,
+  addModal: document.querySelector("#profile__add-form"),
+  addForm: document.querySelector("#add__card-form"),
+  placeInput: document.querySelector("#addCard-title-input"),
+  placeInputUrl: document.querySelector("#addCard-description-input"),
+  closeButtonPlace: document.querySelector("#profile__close-modal"),
+  cardImageModal: document.querySelector("#card__image_modal"),
+  modalImageCloseButton: document.querySelector("#modal__image-close-button"),
+  modalImageSrc: document.querySelector("#modal__image"),
+  modalImageDescription: document.querySelector("#modal__image_description"),
+  modal: document.querySelector(".modal"),
+  modals: document.querySelectorAll(".modal"),
+  modalContainer: document.querySelector(".modal__container"),
+  editModalWindow: document.querySelector("#profile-edit-modal"),
+  addModalWindow: document.querySelector("#profile-edit-button"),
+};
+
+// Form settings
+export const formSettings = {
+  formSelector: ".modal__form",
+  errorClass: "modal__error",
+  inputErrorClass: "modal__input_type_error",
+  inputSelector: ".modal__input",
+  submitButtonSelector: ".modal__button",
+  inactiveButtonClass: "modal__button_disabled",
+};
