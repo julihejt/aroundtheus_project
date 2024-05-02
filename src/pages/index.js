@@ -1,8 +1,25 @@
 /* ------------------------------ import ----------------------------- */
 
-import Card from "../components/Card.js";
+import Card from "../src/components/Card.js";
 
-import FormValidation from "../components/FormValidation.js";
+import FormValidation from "../src/components/FormValidation.js";
+
+import Section from "../src/components/Section.js";
+
+import Userinfo from "../src/components/UserInfo.js";
+
+import PopupWithForm from "../src/components/PopupWithForm.js";
+
+import PopupWithImage from "../src/components/PopupWithImage.js";
+
+import {
+  openPopup,
+  closePopup,
+  closeModalByEscape,
+  handleOverlayClick, // Make sure to import this function if you're using it
+} from "./utils.js";
+
+import "../src/pages/index.css";
 
 /* ------------------------------ initial cards ----------------------------- */
 
@@ -130,26 +147,6 @@ const addCardValidator = new FormValidation(formSettings, addForm);
 addCardValidator.enableValidation();
 
 /* -------------------------------- function -------------------------------- */
-
-function closePopup(modal) {
-  modal.classList.remove("modal_opened");
-
-  document.removeEventListener("keydown", closeModalByEscape);
-}
-
-function openPopup(modal) {
-  modal.classList.add("modal_opened");
-
-  document.addEventListener("keydown", closeModalByEscape);
-}
-
-function closeModalByEscape(evt) {
-  if (evt.key === "Escape") {
-    const openedModal = document.querySelector(".modal_opened");
-
-    closePopup(openedModal);
-  }
-}
 
 function handleImageClick(cardData) {
   modalImageSrc.setAttribute("src", cardData.link);
