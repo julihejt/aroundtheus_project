@@ -1,26 +1,12 @@
 /* ------------------------------ import ----------------------------- */
 
-import Card from "../src/components/Card.js";
-
-import FormValidation from "../src/components/FormValidation.js";
-
-import Section from "../src/components/Section.js";
-
-import Userinfo from "../src/components/UserInfo.js";
-
-import PopupWithForm from "../src/components/PopupWithForm.js";
-
-import PopupWithImage from "../src/components/PopupWithImage.js";
-
-import {
-  openPopup,
-  closePopup,
-  closeModalByEscape,
-  handleOverlayClick, // Make sure to import this function if you're using it
-} from "./utils.js";
-
-import "../src/pages/index.css";
-
+import Card from "../components/Card.js";
+import FormValidation from "../components/FormValidation.js";
+import Section from "../components/Section.js";
+import UserInfo from "../components/UserInfo.js";
+import PopupWithForm from "../components/PopupWithForm.js";
+import PopupWithImage from "../components/PopupWithImage.js";
+import "./pages/index.css";
 /* ------------------------------ initial cards ----------------------------- */
 
 const initialCards = [
