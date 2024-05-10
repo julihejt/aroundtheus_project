@@ -8,6 +8,7 @@ import PopupWithImage from "../components/PopupWithImage.js";
 import Popup from "../components/Popup.js";
 import UserInfo from "../components/UserInfo.js";
 import { initialCards, formSettings } from "../components/utils/constants.js";
+import "../pages/index.css";
 
 /* -------------------------------- classes -------------------------------- */
 
